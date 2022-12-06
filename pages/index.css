@@ -18,62 +18,27 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 
+@import url(../blocks/content/content.css);
 
-.content {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
+@import url(../blocks/description/description.css);
 
-.description {
-  display: flex;
-  margin: 100px 0;
-  justify-content: center;
-  padding: 0;
-}
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
-.two-columns {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0;
-}
+@import url(../blocks/techniques/techniques.css);
 
-.two-columns__brief {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-  width: 175px;
-  margin: 0;
-  text-align: left;
-  padding: 0;
-}
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
 
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-  text-align: left;
-  padding: 0;
-}
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
 
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0 auto 30px;
-  padding: 0;
-}
+@import url(../blocks/cards/__description/cards__description.css);
 
-.two-columns__paragraph :last-of-type {
-  margin-bottom: 0;
-}
-
-
-.two-columns__span-accent {
-  font-weight: 600;
-}
 
 .digits {
   display: flex;
@@ -82,25 +47,6 @@
   padding: 0;
 }
 
-.section-title {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
-  margin: 0 auto 20px;
-  width: 60%;
-  padding: 0;
-}
-
-.section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-  padding: 0;
-}
 
 .table {
   margin: 0 auto;
