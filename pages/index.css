@@ -1,21 +1,23 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0 auto;
-  padding: 0;
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-  padding: 0;
-  position: relative;
+.rotation {
+  animation: rotation 20s linear infinite;
 }
+
+
 
 .logo {
   width: 228px;
