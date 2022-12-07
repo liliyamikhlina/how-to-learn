@@ -1,0 +1,10 @@
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.video__iframe:nth-child(2n) {
+  margin-right: 0;
+}

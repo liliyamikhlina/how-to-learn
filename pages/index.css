@@ -36,16 +36,25 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
-
+@import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 
-.digits {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 100px;
-  padding: 0;
-}
+@import url(../blocks/oakley/oakley.css);
+
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__illustration/feynman__illustration.css);
+
+
+@import url(../blocks/digits/digits.css);
+
+
 
 
 .table {
@@ -79,41 +88,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
-  padding: 0;
-}
-
-.feynman {
-  min-height: 890px;
-  background-image: url(../images/feynman.png);
-  background-color: #f2f2f2;
-  background-size: 867px 637px;
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0;
-  position: relative;
-}
-
-.feynman__title {
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: 600;
-  margin: 100px auto 70px;
-  width: 648px;
-  text-align: center;
-  padding: 0;
-}
-
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin: 0 auto;
-  text-align: center;
   padding: 0;
 }
 
