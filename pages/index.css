@@ -61,54 +61,28 @@
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__author/khan__author.css);
 @import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
 
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
-.kaufman {
-  overflow: hidden;
-  position: relative;
-  background-color: #1f1f1f;
-}
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
-.section-title_theme_dark {
-  margin-top: 90px;
-  color: white;
-  z-index: 4;
-  position: relative;
-}
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
 
-.section-subtitle_theme_dark {
-  color: white;
-  z-index: 3;
-}
-
-.table_theme_dark {
-  margin-bottom: 90px;
-}
-
-.table__heading_theme_dark {
-  color: white;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  z-index: 2;
-}
-
-.kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
-  background-size: cover;
-  background-position: center;
-  width: 877px;
-  height: 877px;
-  position: absolute;
-  right: -210px;
-  top: 0;
-  z-index: 0;
-}
 
 .footer {
   min-height: 350px;
