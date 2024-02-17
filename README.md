@@ -15,3 +15,6 @@
 HTML 
 CSS 
 Git 
+
+## Ссылка на проект
+https://liliyamikhlina.github.io/how-to-learn/
